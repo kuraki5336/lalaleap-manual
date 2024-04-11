@@ -15,10 +15,29 @@ export default defineConfig({
       {
         text: "Examples",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-          { text: "Runtime API abc", link: "/api-examples" },
-          { text: "Runtime API vvv", link: "/api-examples" },
+        { text: "快速上手", link: "/quick" },
+        { text: "專案管理",  
+          collapsed: false,
+          items: [ 
+          { text: "專案", link: "/api-examples" },
+          { text: "專案介紹", link: "/api-examples" },
+          { text: "自訂欄位", link: "/api-examples" },
+          { text: "狀態更新", link: "/api-examples" },
+        ], 
+        },
+        { text: "報表功能",  
+          collapsed: false,
+          items: [ 
+          { text: "報表儀表板", link: "/api-examples" },
+        ], 
+        },
+        { text: "系統管理",  
+          collapsed: false,
+          items: [ 
+          { text: "權限控管", link: "/api-examples" },
+        ], 
+        },
+        
         ],
       },
     ],
