@@ -21,7 +21,8 @@ export default defineConfig({
           items: [ 
           { text: "建立新專案", link: "/project_add" },
           { text: "專案設定", link: "/project_set" },
-          { text: "自訂欄位", link: "/api-examples" },
+          { text: "專案需求", link: "/project_request" },
+          { text: "專案缺陷", link: "/project_bug" },
           { text: "狀態更新", link: "/api-examples" },
         ], 
         },
