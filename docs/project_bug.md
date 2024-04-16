@@ -33,25 +33,21 @@ outline: deep
 #### 2-2.點選【ID】彈出設定需求項目的功能視窗
 
 - 可以編輯項目及需求詳細內容✏
-![Alt text](/public/set05.png)
+![Alt text](bug03.png)
 :::info
 :bulb:編輯器提供文字編輯及貼上圖片！
  ![Alt text](image.png)
 :::
 
 - 點選置底處的對話框可進行留言
-![Alt text](set15.gif)
-![Alt text](set16.png)
+![Alt text](bug04.gif)
+![Alt text](bug05.png)
 
 ## 篩選功能
 
 點選篩選彈出篩選器功能視窗，可設定篩選條來過濾需求列表見下圖👇
-![圖片](set02.gif)
+![圖片](bug06.gif)
 
-## 切換列表顯示方式
-
-可切換成清單或卡片顯示方式見下圖👇
-![圖片](set03.gif)
 
 
 
