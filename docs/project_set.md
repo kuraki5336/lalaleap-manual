@@ -4,15 +4,21 @@ outline: deep
 
 # 專案設定
 
-### 1.編輯專案資訊
+### 1.專案功能頁
+①專案名稱、②專案功能標籤，點選標籤可切換顯示對應功能列表、③功能按鈕列
+![Alt text](set17.png)
+點選![Alt text](set18.jpg){width=30 style=display:inline;}編輯專案成員
+![Alt text](set19.png)
+
+### 2.編輯專案資訊
 點選左側選單專案旁的icon展開編輯選單
 ![Alt text](set06.png)
-#### 1-1.編輯
+#### 2-1.編輯
 修改專案名稱
 ![Alt text](set07.png)
-#### 1-2.封存
+#### 2-2.封存
 封存專案後，只有自己可以看到專案
-#### 1-３.項目欄位設定
+#### 2-３.項目欄位設定
 - 可編輯專案需求列表的欄位
   - 拖拉項目改變順序
   - 點選![Alt text](set12.jpg){width=30 style=display:inline;} 可以編輯項目
