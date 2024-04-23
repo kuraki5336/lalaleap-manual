@@ -27,6 +27,7 @@ export default defineConfig({
             { text: "牌卡", link: "/project_request_card" },
           ]  },
           { text: "缺陷", link: "/project_bug" },
+          { text: "報表", link: "/report" },
         ], 
         },
       
