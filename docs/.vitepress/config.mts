@@ -20,9 +20,14 @@ export default defineConfig({
           collapsed: false,
           items: [ 
           { text: "建立新專案", link: "/project_add" },
-          { text: "專案設定", link: "/project_set" },
-          { text: "專案需求", link: "/project_request" },
-          { text: "專案缺陷", link: "/project_bug" },
+          { text: "設定", link: "/project_set" },
+          { text: "wiki", link: "/wiki" },
+          { text: "需求", collapsed: true, items: [
+            { text: "清單", link: "/project_request_list" },
+            { text: "牌卡", link: "/project_request_card" },
+          ]  },
+          { text: "缺陷", link: "/project_bug" },
+          { text: "報表", link: "/report" },
         ], 
         },
       
