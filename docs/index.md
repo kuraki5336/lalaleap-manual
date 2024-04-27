@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "lalaleap"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Lalaleap"
+  text: "你最棒的生產力工具，讓你的工作更有趣　　☆*: .｡. o(≧▽≦)o .｡.:*☆"
+  tagline: 快速、簡單、可愛
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 使用說明書
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API 文件
+      link: https://hackmd.io/@lalaleap/SJL-xq2sp
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 需求
+    details: 超棒的需求管理，可快速地將專案的時程透過卡片或清單來進行管理
+  - title: 缺陷
+    details: 自然編碼的缺陷管制，讓你的缺陷是能夠有狀態的被管理
+  - title: 迭代
+    details: 專注工作性質。增加敏捷的易用性。放棄那難用的Jira
 ---
-
