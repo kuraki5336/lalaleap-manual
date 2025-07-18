@@ -4,15 +4,17 @@ outline: deep
 
 # 需求-清單
 
-
 ### 1.新增
+
 點選【+新增需求】按鈕可以新增一筆項目
 
 ### 2.需求項目設定
-新增項目後可以直接在列表上進行編輯，輸入需求項目見下圖👇
-![圖片](set04.gif)
-- □：勾選checkbox後會顯示選單對需求項目進行編輯
-- ID：自動生成，點選ID🔗彈出設定需求項目的功能視窗
+
+新增項目後可以直接在列表上進行編輯，輸入需求項目見下圖 👇
+![圖片](./public/set04.gif)
+
+- □：勾選 checkbox 後會顯示選單對需求項目進行編輯
+- ID：自動生成，點選 ID🔗 彈出設定需求項目的功能視窗
 - 項目：輸入項目名稱
 - 選擇狀態：規劃中、開發中、已拒絕
 - 選擇優先度：高、中、低
@@ -23,8 +25,10 @@ outline: deep
 - 處理人：選擇處理人員
 - 規模：輸入規模
 
-#### 2-1.勾選checkbox展開功能選單
-![Alt text](set08.png)
+#### 2-1.勾選 checkbox 展開功能選單
+
+![Alt text](./public/set08.png)
+
 - 分享需求連結：複製連結
 - 在新視窗開啟：另開新視窗
 - 複製需求：複製一筆項目
@@ -33,26 +37,25 @@ outline: deep
 
 #### 2-2.點選【ID】彈出設定需求項目的功能視窗
 
-- 可以編輯項目及需求詳細內容✏
-![Alt text](/public/set05.png)
-:::info
-:bulb:編輯器提供文字編輯及貼上圖片！
- ![Alt text](image.png)
-:::
+- 可以編輯項目及需求詳細內容 ✏
+  ![Alt text](./public/set05.png)
+  :::info
+  :bulb:編輯器提供文字編輯及貼上圖片！
+  ![Alt text](./public/image.png)
+  :::
 
 - 點選置底處的對話框可進行留言
-![Alt text](set15.gif)
-![Alt text](set16.png)
+  ![Alt text](./public/set15.gif)
+  ![Alt text](./public/set16.png)
 
 ## 篩選功能
 
-點選篩選彈出篩選器功能視窗，可設定篩選條來過濾需求列表見下圖👇
-![圖片](set02.gif)
+點選篩選彈出篩選器功能視窗，可設定篩選條來過濾需求列表見下圖 👇
+![圖片](./public/set02.gif)
 
 ## 切換列表顯示方式
 
-點選![Alt text](request01.jpg){width=70 style=display:inline;}可切換成清單或卡片顯示方式見下圖👇
-![圖片](set03.gif)
+點選![Alt text](./public/request01.jpg){width=70 style=display:inline;}可切換成清單或卡片顯示方式見下圖 👇
+![圖片](./public/set03.gif)
 
-牌卡詳細功能請見👉[需求-牌卡](project_request_card.md)
-
+牌卡詳細功能請見 👉[需求-牌卡](project_request_card.md)
