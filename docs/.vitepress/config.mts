@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Lalaleap",
-  base: "/doc/",
+  base: "/lalaleap-manual/",
   description: "Lalaleap的使用說明手冊",
   lastUpdated: true,
   themeConfig: {

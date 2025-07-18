@@ -1,0 +1,60 @@
+# 部署到 GitHub Pages 的範例工作流程
+name: Deploy GitHub Pages
+
+on:
+  # 當推送到 `main` 分支時觸發
+  push:
+    branches: [main]
+  # 讓你可以手動在 Actions 頁面觸發此工作流程
+  workflow_dispatch:
+
+# 允許 GITHUB_TOKEN 在 `actions/deploy-pages` 中建立部署
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # 如果你的 VitePress 專案有使用 Git 的提交歷史（例如 lastUpdated），就需要設定 fetch-depth: 0
+          fetch-depth: 0
+      
+      # VitePress 官方推薦使用 pnpm，如果你用 npm 或 yarn，請修改以下步驟
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8 # 指定 pnpm 版本
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18 # 建議使用 18 或更高版本
+          cache: 'pnpm' # 為 pnpm 設定快取
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build with VitePress
+        # 如果你的 build 指令是別的，請修改這裡
+        run: pnpm run docs:build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
